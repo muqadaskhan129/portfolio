@@ -78,18 +78,20 @@ footer {
 
   nav {
     padding: 0.5rem;
-    
+    width: 100%;
+    display: flex;
   text-align: center;
   }
 
   nav a {
-    display: block;
+  
     margin: 0.5rem 0;
   }
 
   header {
     padding: 0.5rem;
     display: flex;
+    width: 100%;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -98,9 +100,11 @@ footer {
   section {
     padding: 1rem;
     margin: 1rem;
+    width: 100%
   }
 
   footer {
     font-size: 0.9rem;
+    width: 100%;
   }
 }
