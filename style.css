@@ -1,27 +1,35 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 0;
-  background: #f2f2f2;
+  background: whitesmoke;
   color: #333;
 }
 
 header {
-  background: #222;
-  color: #fff;
+  background: #E9A5F1;
+  color: black;
   padding: 2rem;
-  text-align: center;
+  display: flex;
+  height: 50px;
 }
-
+header p{
+    padding-left: 50%;
+    padding-top: 0.5%;
+    font-size: large;
+}
 nav {
-  background: #444;
+  background: #C68EFD;
   padding: 1rem;
   text-align: center;
 }
 
 nav a {
-  color: #fff;
+  color: black;
   margin: 0 1rem;
   text-decoration: none;
+}
+nav a:hover{
+    color:#79549e;
 }
 
 section {
@@ -31,6 +39,7 @@ section {
   background: #fff;
   margin-top: 1rem;
   border-radius: 8px;
+  margin-bottom: 30%;
 }
 
 .project {
@@ -39,6 +48,19 @@ section {
   border-radius: 6px;
   margin-bottom: 1rem;
 }
+.rc{
+  background: #e8e8e8;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  
+}
+#r a:hover{
+  color: red;
+}
+
 
 footer {
   text-align: center;
