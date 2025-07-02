@@ -116,3 +116,28 @@ header p{
     margin-top: 62%;
   }
 }
+
+@media (max-width: 480px) {
+  nav a {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 14px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 15px;
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
