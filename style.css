@@ -78,7 +78,7 @@ footer {
   }
 
   nav {
-  padding: 0.5rem;
+  padding: 0.2rem;
  
   text-align: center; 
   display: block;     
@@ -89,7 +89,7 @@ footer {
  nav a {
   display: inline-block;
    text-align: center; 
-  margin: 0 0.5rem;
+  margin: 0 0.2rem;
 }
 
  header {
@@ -101,8 +101,8 @@ footer {
   height: 70px;
 }
 header p{
-    padding-left: 40%;
-    padding-top: 0.5%;
+    padding-left: 20%;
+    padding-top: 0%;
     
     font-size: large;
 }
