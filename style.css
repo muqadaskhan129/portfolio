@@ -8,17 +8,15 @@ body {
 header {
   background: #E9A5F1;
   color: black;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+  height: 50px;
 }
-
-header p {
-  font-size: 1.2rem;
+header p{
+    padding-left: 50%;
+    padding-top: 0.5%;
+    font-size: large;
 }
-
 nav {
   background: #C68EFD;
   padding: 1rem;
@@ -30,33 +28,39 @@ nav a {
   margin: 0 1rem;
   text-decoration: none;
 }
-
-nav a:hover {
-  color: #79549e;
+nav a:hover{
+    color:#79549e;
 }
 
 section {
   padding: 2rem;
   max-width: 800px;
-  width: 100%;
-  margin: 1rem auto;
+  margin: auto;
   background: #fff;
+  margin-top: 1rem;
   border-radius: 8px;
+  margin-bottom: 30%;
 }
 
-.project,
-.rc {
+.project {
   background: #e8e8e8;
   padding: 1rem;
   border-radius: 6px;
   margin-bottom: 1rem;
-  color: black;
-  text-decoration: none;
 }
-
-#r a:hover {
+.rc{
+  background: #e8e8e8;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+  
+}
+#r a:hover{
   color: red;
 }
+
 
 footer {
   text-align: center;
@@ -64,7 +68,6 @@ footer {
   background: #222;
   color: #fff;
   margin-top: 2rem;
-  font-size: 1rem;
 }
 
 
